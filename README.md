@@ -72,8 +72,8 @@ Prepare above toolchain environment and git clone the repository to local, then 
   caravel-soc_fpga/testbench/counter_la/waveform.gtkw  
   ##################################################
   
-  [counter_wb run_xsim log (xvlog/xelab/xsim)](https://github.com/bol-edu/caravel-soc_fpga/files/11107718/counter_wb.log)
-
+  [counter_wb run_xsim log (xvlog/xelab/xsim)](https://github.com/bol-edu/caravel-soc_fpga/files/11107765/counter_wb.log)
+ 
 * GCD with (LA) logic analyzer interface
 
   Files for vitis xvlog/xelab/xsim:  
