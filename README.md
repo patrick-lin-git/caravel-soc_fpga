@@ -56,7 +56,6 @@ Prepare above toolchain environment and git clone the repository to local, then 
   caravel-soc_fpga/testbench/counter_la/counter_la_tb.v  
   caravel-soc_fpga/testbench/counter_la/include.rtl.list.xsim  
   caravel-soc_fpga/testbench/counter_la/run_xsim  
-  caravel-soc_fpga/testbench/counter_la/waveform.gtkw  
   ##################################################
   
   [counter_la run_xsim log (xvlog/xelab/xsim)](https://github.com/bol-edu/caravel-soc_fpga/files/11107754/counter_la.log) 
@@ -69,7 +68,6 @@ Prepare above toolchain environment and git clone the repository to local, then 
   caravel-soc_fpga/testbench/counter_la/counter_wb_tb.v  
   caravel-soc_fpga/testbench/counter_la/include.rtl.list.xsim  
   caravel-soc_fpga/testbench/counter_la/run_xsim  
-  caravel-soc_fpga/testbench/counter_la/waveform.gtkw  
   ##################################################
   
   [counter_wb run_xsim log (xvlog/xelab/xsim)](https://github.com/bol-edu/caravel-soc_fpga/files/11107765/counter_wb.log)
@@ -82,7 +80,6 @@ Prepare above toolchain environment and git clone the repository to local, then 
   caravel-soc_fpga/testbench/gcd_la/gcd_la_tb.v  
   caravel-soc_fpga/testbench/gcd_la/include.rtl.list.xsim  
   caravel-soc_fpga/testbench/gcd_la/run_xsim  
-  caravel-soc_fpga/testbench/gcd_la/waveform.gtkw  
   ##################################################
   
   [gcd_la run_xsim log (xvlog/xelab/xsim)](https://github.com/bol-edu/caravel-soc_fpga/files/11107776/gcd_la.log)
