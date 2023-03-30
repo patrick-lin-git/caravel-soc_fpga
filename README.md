@@ -9,18 +9,17 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to FPGA design flo
 
 ## Revision from Caravel SoC to Caravel SoC FPGA
 * `default_nettype none to wire [x11]
-
-   /vip/tbuart.v:1
-   /vip/spiflash.v:1
-   /rtl/user/user_project_wrapper.v:16
-   /rtl/user/user_proj_example.counter.v:16
-   /rtl/user/user_proj_example.gcd.v:16
-   /rtl/soc/gpio_control_block.v:58
-   /rtl/soc/housekeeping.v:58
-   /rtl/soc/mprj_io.v::58
-   /rtl/soc/housekeeping_spi.v:16
-   /rtl/soc/mgmt_core_wrapper.v:30
-   /rtl/soc/gpio_defaults_block.v:58 
+   (01) /vip/tbuart.v:1  
+   (02) /vip/spiflash.v:1  
+   (03) /rtl/user/user_project_wrapper.v:16  
+   (04) /rtl/user/user_proj_example.counter.v:16  
+   (05) /rtl/user/user_proj_example.gcd.v:16  
+   (06) /rtl/soc/gpio_control_block.v:58  
+   (07) /rtl/soc/housekeeping.v:58  
+   (08) /rtl/soc/mprj_io.v::58  
+   (09) /rtl/soc/housekeeping_spi.v:16  
+   (10) /rtl/soc/mgmt_core_wrapper.v:30  
+   (11) /rtl/soc/gpio_defaults_block.v:58  
     
 * xxx
    
