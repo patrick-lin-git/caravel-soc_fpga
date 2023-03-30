@@ -44,7 +44,7 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to FPGA design flo
   caravel-soc_fpga/testbench/counter_la/counter_la.c  
   caravel-soc_fpga/testbench/counter_la/counter_la_tb.v  
   caravel-soc_fpga/testbench/counter_la/include.rtl.list.xsim  
-  caravel-soc_fpga/testbench/counter_la/run_xsim
+  caravel-soc_fpga/testbench/counter_la/run_xsim  
   caravel-soc_fpga/testbench/counter_la/waveform.gtkw  
   ##################################################
   
@@ -55,7 +55,7 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to FPGA design flo
   caravel-soc_fpga/testbench/counter_la/counter_wb.c  
   caravel-soc_fpga/testbench/counter_la/counter_wb_tb.v  
   caravel-soc_fpga/testbench/counter_la/include.rtl.list.xsim  
-  caravel-soc_fpga/testbench/counter_la/run_xsim
+  caravel-soc_fpga/testbench/counter_la/run_xsim  
   caravel-soc_fpga/testbench/counter_la/waveform.gtkw  
   ##################################################
   
@@ -66,6 +66,6 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to FPGA design flo
   caravel-soc_fpga/testbench/gcd_la/gcd_la.c  
   caravel-soc_fpga/testbench/gcd_la/gcd_la_tb.v  
   caravel-soc_fpga/testbench/gcd_la/include.rtl.list.xsim  
-  caravel-soc_fpga/testbench/gcd_la/run_xsim
+  caravel-soc_fpga/testbench/gcd_la/run_xsim  
   caravel-soc_fpga/testbench/gcd_la/waveform.gtkw  
   ##################################################
