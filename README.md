@@ -35,7 +35,7 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to FPGA design flo
    (04) /vip/tbuart.v  
    (05) /vip/spiflash.v  
 
-## Example of xvlog/xelab/xsim command-line
+## Example of xvlog/xelab/xsim Command-line
 
     xvlog -d FUNCTIONAL -d SIM -d DUNIT_DELAY=#1 -d USE_POWER_PINS -f ./include.rtl.list.xsim $design_tb.v
     xelab -top $design_tb -snapshot $design_tb_elab
