@@ -21,14 +21,14 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to FPGA design flo
    (10) /rtl/soc/mgmt_core_wrapper.v:30  
    (11) /rtl/soc/gpio_defaults_block.v:58  
     
-* redeclaration of ansi port (check by xvlog)
+* redeclaration of ansi port (check by xvlog)  
    (01) /rtl/user/user_proj_example.counter.v  
    (02) /rtl/user/user_proj_example.gcd.v  
    (03) /rtl/soc/gpio_control_block.v  
    (04) /rtl/soc/gpio_defaults_block.v  
    (05) /rtl/soc/housekeeping.v
    
-* comment out `timescale 1 ns / 1 ps (check by xelab)
+* comment out `timescale 1 ns / 1 ps (check by xelab)  
    (01) /testbench/counter_la_tb.v  
    (02) /testbench/counter_wb_tb.v  
    (03) /testbench/gcd_la_tb.v   
