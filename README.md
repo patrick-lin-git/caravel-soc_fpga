@@ -8,7 +8,8 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to FPGA design flo
 * [GTKWave v3.3.103](https://gtkwave.sourceforge.net/)
 
 ## Revision from Caravel SoC to Caravel SoC FPGA
-* `default_nettype none to wire [x11]   
+* `default_nettype none to wire [x11]
+
    /vip/tbuart.v:1
    /vip/spiflash.v:1
    /rtl/user/user_project_wrapper.v:16
@@ -19,7 +20,10 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to FPGA design flo
    /rtl/soc/mprj_io.v::58
    /rtl/soc/housekeeping_spi.v:16
    /rtl/soc/mgmt_core_wrapper.v:30
-   /rtl/soc/gpio_defaults_block.v:58
+   /rtl/soc/gpio_defaults_block.v:58 
+    
+* xxx
+   
 * xxx
 
 
