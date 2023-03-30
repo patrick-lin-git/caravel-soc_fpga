@@ -84,3 +84,7 @@ Prepare above toolchain environment and git clone the repository to local, then 
   caravel-soc_fpga/testbench/gcd_la/run_xsim  
   caravel-soc_fpga/testbench/gcd_la/waveform.gtkw  
   ##################################################
+  
+  [gcd_la run_xsim log (xvlog/xelab/xsim)](https://github.com/bol-edu/caravel-soc_fpga/files/11107776/gcd_la.log)
+
+  
