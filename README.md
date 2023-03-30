@@ -8,7 +8,7 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to FPGA design flo
 * [GTKWave v3.3.103](https://gtkwave.sourceforge.net/)
 
 ## Revision from Caravel SoC to Caravel SoC FPGA
-* `default_nettype none to wire [x11]  
+* `default_nettype none to wire (check by xvlog)
    (01) /vip/tbuart.v:1  
    (02) /vip/spiflash.v:1  
    (03) /rtl/user/user_project_wrapper.v:16  
@@ -21,12 +21,20 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to FPGA design flo
    (10) /rtl/soc/mgmt_core_wrapper.v:30  
    (11) /rtl/soc/gpio_defaults_block.v:58  
     
-* xxx
+* redeclaration of ansi port (check by xvlog)
+   (01) /rtl/user/user_proj_example.counter.v  
+   (02) /rtl/user/user_proj_example.gcd.v  
+   (03) /rtl/soc/gpio_control_block.v  
+   (04) /rtl/soc/gpio_defaults_block.v  
+   (05) /rtl/soc/housekeeping.v
    
-* xxx
-
-
-
+* comment out `timescale 1 ns / 1 ps (check by xelab)
+   (01) /testbench/counter_la_tb.v  
+   (02) /testbench/counter_wb_tb.v  
+   (03) /testbench/gcd_la_tb.v   
+   (04) /vip/tbuart.v  
+   (05) /vip/spiflash.v  
+   
 ## Testbenches for Custom Designs
 
 * Counter with (LA) logic analyzer interface 
