@@ -4,7 +4,7 @@
 
 # User project
 ../../rtl/user/user_project_wrapper.v
-../../rtl/user/user_proj_example.counter.v
+../../rtl/user/user_proj_example.gcd.v
 
 ## VIP
 ../../vip/tbuart.v
