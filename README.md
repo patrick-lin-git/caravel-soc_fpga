@@ -7,7 +7,7 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to Xilinx Vitis FP
 * [Vitis 2022.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2022-1.html)
 * [GTKWave v3.3.103](https://gtkwave.sourceforge.net/)
 
-## Steup
+## Setup
 Prepare above toolchain environment and git clone the repository to local, then run chmod +x ./run_xsim ./run_clean in all testbench directories.
 
 
