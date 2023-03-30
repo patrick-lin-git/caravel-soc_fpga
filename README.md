@@ -7,6 +7,10 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to Xilinx Vitis FP
 * [Vitis 2022.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2022-1.html)
 * [GTKWave v3.3.103](https://gtkwave.sourceforge.net/)
 
+## Steup
+Prepare above toolchain environment and git clone https://github.com/bol-edu/caravel-soc_fpga to local, then run chmod +x ./run_xsim ./run_clean in all testbench directories.
+
+
 ## Revision from Caravel SoC to Caravel SoC FPGA
 * `default_nettype none to wire (checked by xvlog)  
    (01) /vip/tbuart.v:1  
