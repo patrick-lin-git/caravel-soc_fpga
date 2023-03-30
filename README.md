@@ -1,5 +1,5 @@
 # Caravel SoC FPGA
-Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to FPGA design flow.
+Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to Xilinx Vitis FPGA design flow.
 
 ## Toolchain Prerequisites
 * [Ubuntu 20.04+](https://releases.ubuntu.com/focal/)
