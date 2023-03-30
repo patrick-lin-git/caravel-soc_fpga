@@ -8,7 +8,7 @@ Porting [Caravel SoC](https://github.com/bol-edu/caravel-soc) to Xilinx Vitis FP
 * [GTKWave v3.3.103](https://gtkwave.sourceforge.net/)
 
 ## Setup
-Prepare above toolchain environment and git clone the repository to local, then run chmod +x ./run_xsim ./run_clean in all testbench directories.
+Prepare above toolchain environment and git clone the repository to local then run chmod +x ./run_xsim ./run_clean in all testbench directories.
 
 
 ## Revision from Caravel SoC to Caravel SoC FPGA
