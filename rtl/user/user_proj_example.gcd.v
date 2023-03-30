@@ -13,7 +13,7 @@
 // limitations under the License.
 // SPDX-License-Identifier: Apache-2.0
 
-`default_nettype none
+`default_nettype wire
 /*
  *-------------------------------------------------------------
  *
@@ -61,9 +61,9 @@ module user_proj_example #(
     input  [127:0] la_oenb,
 
     // IOs
-    input  [`MPRJ_IO_PADS-1:0] io_in,
-    output [`MPRJ_IO_PADS-1:0] io_out,
-    output [`MPRJ_IO_PADS-1:0] io_oeb,
+    input  wire [`MPRJ_IO_PADS-1:0] io_in,
+    output wire [`MPRJ_IO_PADS-1:0] io_out,
+    output wire [`MPRJ_IO_PADS-1:0] io_oeb,
 
     // IRQ
     output [2:0] irq
@@ -71,9 +71,9 @@ module user_proj_example #(
     wire clk;
     wire rst;
 
-    wire [`MPRJ_IO_PADS-1:0] io_in;
-    wire [`MPRJ_IO_PADS-1:0] io_out;
-    wire [`MPRJ_IO_PADS-1:0] io_oeb;
+    //wire [`MPRJ_IO_PADS-1:0] io_in;
+    //wire [`MPRJ_IO_PADS-1:0] io_out;
+    //wire [`MPRJ_IO_PADS-1:0] io_oeb;
 
     wire [31:0] rdata; 
     wire [31:0] wdata;
